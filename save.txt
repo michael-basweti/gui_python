@@ -1,0 +1,1 @@
+C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe,C:/Program Files/Firefox Developer Edition/firefox.exe,C:/Program Files/Bonjour/mDNSResponder.exe,C:/Program Files (x86)/Google/Chrome/Application/chrome.exe,
