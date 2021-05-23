@@ -23,6 +23,10 @@ def addApp():
         label.pack()
         print(label)
 
+def runApps():
+    for app in apps:
+        os.startfile(app)
+
 canvas = Canvas(root, height=700, width=700, bg="#439cd3")
 canvas.pack()
 
@@ -32,7 +36,7 @@ frame.place(relwidth=0.8, relheight=0.8, relx=0.1, rely=0.1)
 openFile = Button(root, text='Open File', padx=10,pady=5,fg="white", bg="#439cd3", command=addApp)
 openFile.pack()
 
-runApps = Button(root, text='Run Apps', padx=10,pady=5,fg="white", bg="#439cd3")
+runApps = Button(root, text='Run Apps', padx=10,pady=5,fg="white", bg="#439cd3", command=runApps)
 
 runApps.pack()
 
